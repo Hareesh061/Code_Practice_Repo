@@ -23,7 +23,7 @@ int main(){
 
 
 
-//  for(int i=1;i<=2*n-1;i++){
+// for(int i=1;i<=2*n-1;i++){
 //     int s=i;
 //     if(i>n) s=2*n-i;
 
