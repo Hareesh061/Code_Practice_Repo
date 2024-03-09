@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void merge(vector<int> &arr,int low,int mid,int high){
+void merge(int arr[],int low,int mid,int high){
 
     vector<int> temp;
     int left=low;
@@ -38,7 +38,7 @@ void merge(vector<int> &arr,int low,int mid,int high){
 }
 
 
-void mergesort(vector<int> &arr,int low, int high){
+void mergesort(int arr[],int low, int high){
 
     if(low>=high) return;
 
@@ -54,9 +54,14 @@ void mergesort(vector<int> &arr,int low, int high){
 
 
 int main(){
-   vector<int> arr= {2,5,1,7,3};
- int n=5;
-  
+    int n;
+    cin>>n;
+
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+
    mergesort(arr,0,n-1);
 
    for(int i=0;i<n;i++){
