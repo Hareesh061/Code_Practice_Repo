@@ -1,6 +1,6 @@
 //finding max element in an array
 
-
+//brute force approch
 
 // #include<bits/stdc++.h>
 // using namespace std;
@@ -17,6 +17,9 @@
 //     cout<<maxel(arr);
 // }
 
+
+
+//recursive way approch
 
 
 #include<bits/stdc++.h>
