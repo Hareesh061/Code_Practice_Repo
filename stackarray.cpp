@@ -1,7 +1,6 @@
 // create stack using array 
 
 
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -41,9 +40,8 @@ int Size(){
 
 }
 
+
 };
-
-
 
 
 int main(){
