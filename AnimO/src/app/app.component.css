@@ -1,0 +1,83 @@
+
+
+  .blinking-text {
+    color: green;
+    animation: blink 5s infinite;
+  }
+
+  @keyframes blink {
+    0% { color: rgb(9, 192, 9); }
+    50% { color: transparent; }
+    100% { color: rgb(1, 154, 1); }
+  }
+ 
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  /* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Main section styling */
+main {
+    padding: 1rem;
+}
+
+/* Gallery styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.picture {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+}
+
+.picture p {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
